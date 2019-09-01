@@ -33,11 +33,9 @@ const deleteMessage = id => async dispatch => {
   }
 };
 
-const editMessage = id => async dispatch => {
-  dispatch(actions.fetchRequest());
-
+const editMessage = message => async dispatch => {
   try {
-    dispatch(actions.editMessageSuccess(id));
+    dispatch(actions.editMessageSuccess(message));
   } catch (error) {
     dispatch(actions.fetchError(error));
   }

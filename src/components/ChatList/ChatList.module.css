@@ -2,4 +2,7 @@
   width: 100%;
   background-color: #fff;
   min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

@@ -1,18 +1,49 @@
 .message {
+  border-radius: 10px;
+  margin: 10px;
   height: 40%;
   background-color: #e2e2e2;
+
+  width: 500px;
   display: flex;
-  flex-direction: column;
+  position: relative;
 }
 
 .myMessage {
+  border-radius: 10px;
+  margin: 10px;
   height: 40%;
+  width: 500px;
   background-color: #4b4d4a;
   display: flex;
-  flex-direction: column;
+  position: relative;
+  align-self: flex-end;
+  justify-self: self-start;
+  float: right;
 }
 
 .like {
   background-color: orangered;
   border-radius: 10px;
+}
+
+.avatar {
+  padding: 10px;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.creationDate {
+  position: absolute;
+  top: 3px;
+  right: 6px;
+  font-size: 13px;
+  color: lightslategray;
+}
+
+h3 {
+  color: #8cc054;
 }

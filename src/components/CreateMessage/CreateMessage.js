@@ -13,6 +13,7 @@ const CreateMessage = ({ addMessage }) => {
         onSubmit={e => {
           e.preventDefault();
           addMessage({
+            id: Date.now().toString(),
             user: 'me',
             message,
             created_at: new Date().toLocaleString(),

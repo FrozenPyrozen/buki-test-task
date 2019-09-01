@@ -15,7 +15,7 @@ $ npm install
 ```
 $ yarn install
 ```
-4. Run app in another terminal:
+4. Run app in terminal:
 ```
 $ npm start
 ```

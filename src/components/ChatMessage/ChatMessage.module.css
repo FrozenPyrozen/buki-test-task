@@ -61,7 +61,24 @@
   display: flex;
   margin: 10px;
   justify-content: space-between;
-  width: 86px;
+  width: 100px;
+}
+
+.confirm {
+  border-radius: 10px;
+  border: none;
+  width: 50px;
+  height: 30px;
+  outline: none;
+  font-size: 20px;
+}
+
+.delete {
+  border-radius: 10px;
+  border: none;
+  width: 50px;
+  height: 30px;
+  outline: none;
 }
 
 h3 {

@@ -43,10 +43,18 @@ const ChatMessage = ({
         <div>
           {user === 'me' ? (
             <div className={styles.buttons}>
-              <button onClick={() => setEditing(!isEditing)}>
-                {!isEditing ? 'Edit' : 'Confirm'}
+              <button
+                className={styles.confirm}
+                onClick={() => setEditing(!isEditing)}
+              >
+                {!isEditing ? 'Edit' : '✔'}
               </button>
-              <button onClick={() => deleteMessage(id)}>Delete</button>
+              <button
+                className={styles.delete}
+                onClick={() => deleteMessage(id)}
+              >
+                ❌
+              </button>
             </div>
           ) : (
             <button

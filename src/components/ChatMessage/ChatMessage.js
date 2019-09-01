@@ -2,9 +2,9 @@ import React from 'react';
 
 import styles from './ChatMessage.module.css';
 
-const ChatMessage = ({ user, avatar, created_at, message }) => {
+const ChatMessage = ({ user = '', avatar, created_at, message }) => {
   return (
-    <div className={styles.message}>
+    <div className={user !== 'me' ? styles.message : styles.myMessage}>
       <h3>{user}</h3>
       <img src={avatar} alt={user} />
       <p>{message}</p>

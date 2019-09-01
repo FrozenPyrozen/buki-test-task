@@ -15,7 +15,7 @@ const ChatList = ({ messages = [], fetchMessages }) => {
     <ul className={styles.list}>
       {messages.map(el => (
         <li key={el.id}>
-          <ChatMessage {...el} />>
+          <ChatMessage {...el} />
         </li>
       ))}
     </ul>

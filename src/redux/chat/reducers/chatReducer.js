@@ -8,9 +8,9 @@ function messagesReducer(state = [], { type, payload }) {
     case types.ADD_MESSAGE_SUCCESS:
       return [...state, payload];
     case types.DELETE_MESSAGE_SUCCESS:
-      return state.filter(item => item.user !== payload);
+      return state.filter(item => item.id !== payload);
     case types.EDIT_MESSAGE_SUCCESS:
-      return state.map(item => (item.user === payload.user ? payload : item));
+      return state.map(item => (item.id === payload.id ? payload : item));
 
     default:
       return state;

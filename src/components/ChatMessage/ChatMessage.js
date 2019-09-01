@@ -8,7 +8,7 @@ import styles from './ChatMessage.module.css';
 const ChatMessage = ({
   user = '',
   avatar,
-  created_at = new Date().toLocaleString(),
+  created_at,
   message,
   deleteMessage,
   editMessage,

@@ -14,6 +14,7 @@ const CreateMessage = ({ addMessage }) => {
           addMessage({
             user: 'me',
             message,
+            created_at: new Date().toLocaleString(),
             avatar:
               'https://avatars3.githubusercontent.com/u/38257513?s=400&v=4',
           });

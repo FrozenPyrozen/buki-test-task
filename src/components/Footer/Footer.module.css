@@ -1,0 +1,29 @@
+.footer {
+  color: #fff;
+  width: 100%;
+  background-color: #000;
+  height: 100px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  margin-top: 10px;
+  font-size: 23px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 300px;
+}
+
+.copyright {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

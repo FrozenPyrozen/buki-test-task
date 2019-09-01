@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
-
 import { connect } from 'react-redux';
-import styles from './Header.module.css';
 import { chatOperations, chatSelectors } from '../../redux/chat/actions';
+import styles from './Header.module.css';
 
 const Header = ({
   fetchMessages,

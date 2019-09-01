@@ -14,3 +14,8 @@ $ npm install
 ```
 ```
 $ yarn install
+```
+4. Run app in another terminal:
+```
+$ npm start
+```

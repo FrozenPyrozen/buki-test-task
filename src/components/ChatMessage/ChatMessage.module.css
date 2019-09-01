@@ -15,6 +15,7 @@
   height: 40%;
   width: 500px;
   background-color: #4b4d4a;
+  color: #fff;
   display: flex;
   position: relative;
   align-self: flex-end;
@@ -22,9 +23,21 @@
   float: right;
 }
 
+.isntLike {
+  border-radius: 100px;
+  border: none;
+  width: 40px;
+  height: 40px;
+  outline: none;
+}
+
 .like {
   background-color: orangered;
-  border-radius: 10px;
+  border-radius: 100px;
+  border: none;
+  width: 50px;
+  height: 50px;
+  outline: none;
 }
 
 .avatar {

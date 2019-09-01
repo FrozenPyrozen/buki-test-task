@@ -51,9 +51,9 @@ const ChatMessage = ({
           ) : (
             <button
               onClick={() => setLike(!isLiked)}
-              className={isLiked && styles.like}
+              className={isLiked ? styles.like : styles.isntLike}
             >
-              Like
+              👍
             </button>
           )}
         </div>

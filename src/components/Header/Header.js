@@ -16,7 +16,7 @@ const Header = ({
   return (
     <div className={styles.header}>
       <div className={styles.left}>
-        <span>My chat</span>
+        <span className={styles.logo}>My chat</span>
         <span>
           {usersCount} users {messagesLength} messages
         </span>

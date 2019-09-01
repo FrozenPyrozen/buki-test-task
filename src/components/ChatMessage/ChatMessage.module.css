@@ -57,6 +57,13 @@
   color: lightslategray;
 }
 
+.buttons {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+  width: 86px;
+}
+
 h3 {
   color: #8cc054;
 }

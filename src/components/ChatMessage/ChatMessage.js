@@ -42,12 +42,12 @@ const ChatMessage = ({
         <span className={styles.creationDate}>{created_at}</span>
         <div>
           {user === 'me' ? (
-            <>
+            <div className={styles.buttons}>
               <button onClick={() => setEditing(!isEditing)}>
                 {!isEditing ? 'Edit' : 'Confirm'}
               </button>
               <button onClick={() => deleteMessage(id)}>Delete</button>
-            </>
+            </div>
           ) : (
             <button
               onClick={() => setLike(!isLiked)}

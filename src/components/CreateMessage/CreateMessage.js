@@ -9,6 +9,7 @@ const CreateMessage = ({ addMessage }) => {
   return (
     <div className={styles.container}>
       <form
+        className={styles.form}
         onSubmit={e => {
           e.preventDefault();
           addMessage({
